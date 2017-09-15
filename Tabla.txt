@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<table style="width:100%">
+<tr>
+<th>Lunes</th>
+<th>Martes</th>
+<th>Miercoles</th>
+<th>Jueves</th>
+<th>Viernes</th>
+</tr>
+<td>Tecnologias de Internet</td>
+<td>Sistemas Operativos</td>
+<td>No Hay</td>
+<td>Sistemas Operativos</td>
+<td>Tecnologias de Internet</td>
+</tr>
+</table>
+</body>
+</html>
