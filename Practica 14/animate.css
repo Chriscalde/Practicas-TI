@@ -47,9 +47,11 @@
   90% {
     transform: translate3d(0,-4px,0);
   }
+.    
 }
 
 .bounce {
+    
   animation-name: bounce;
   transform-origin: center bottom;
 }
@@ -82,6 +84,7 @@
   to {
     transform: scale3d(1, 1, 1);
   }
+    
 }
 
 .pulse {
@@ -1576,4 +1579,38 @@
 
 .slideOutUp {
   animation-name: slideOutUp;
+}
+
+
+h1 {
+    animation-name: swing;
+    animation-duration: 4s;
+    text-align: center
+
+}
+
+h2 {
+    animation-name: slideOutLeft;
+    animation-duration: 2s;
+}
+
+h3 {
+    animation-name: slideOutRight;
+    animation-duration: 2s;
+}
+
+h4 {
+    animation-name: slideOutUp;
+    animation-duration: 2s;
+}
+
+h5 {
+    
+    animation-name: slideOutDown;
+    animation-duration: 2s;
+}
+
+h6 {
+    animation-name: pulse;
+    animation-duration: 3s;
 }
