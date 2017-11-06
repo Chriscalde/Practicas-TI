@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Piedra Papel o Tijera</title>
+<script type="text/javascript">
+function change1(){
+    var image= document.getElementById('social');
+    image.src ="rock.png"
+}
+function change2(){
+    var image= document.getElementById('social');
+    image.src ="pap.png"
+}
+function change3(){
+    var image= document.getElementById('social');
+    image.src ="scis.png"
+}
+</script>  
+</head>
+<body>
+<h1>Piedra Papel o Tijera</h1>
+<p>Selecciona un boton y compite contra un compañero</p>
+<img src="default.png" height="100px" width="100px" alt="imagen" id="social" ><br>
+<button type="button" onclick="change1();";>Rock</button>
+<button type="button" onclick="change2();">Paper</button>
+<button type="button" onclick="change3();">Scissors</button>
+</body>
+ 
+</html>
