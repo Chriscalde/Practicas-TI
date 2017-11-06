@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Grados Centigrados a Fahrenheit</title>
+<script type="text/javascript">
+function grad(){
+    var txt;
+    var C= document.getElementById('cent').value;
+    var F=C*1.8+32;
+    txt= F;
+    alert("Convertido a Grados "+txt);
+}
+</script>
+</head>
+<body>
+<h1>Grados Centigrados a Fahrenheit</h1>
+<p>Inroduce los grados que quieres convertir</p>    
+<input type="number" value="Grados Centigrados" id="cent"><br>
+<input type="submit" onclick="grad()" value="Convertir">    
+</body>
+</html>
